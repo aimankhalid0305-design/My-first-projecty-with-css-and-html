@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:white;
+    color: white;
+}
+.container{
+    width: 100%;
+     min-height: 100vh;
+} 
+.color{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    border-bottom: 4px solid rgb(153, 9, 9);
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    font-size: 20px;
+   font-weight: bolder;
+   position: fixed;
+   top: 0;
+}
+.b{
+    border: 2px solid red;
+   height: 35px;
+   width: 70px;
+  display: flex;
+  justify-content: center;
+ border-radius: 25px;
+  background-color: black;
+  color: white;
+  padding-top: 3px;
+  margin-right: 2px;
+  cursor: pointer;
+
+
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    margin-left: 1400px;
+}
+.content{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(14, 2, 31);
+}
+.text{
+    width: 40%;
+    height: 500px;
+    background-color: rgb(14, 2, 31);
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+
+}
+.image{
+     width: 40%;
+    height: 300px;
+    background-color: rgb(14, 2, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image img{
+width: 100%;
+height: 300px;
+}
+.bolo{
+    color: white;
+}
+.order{
+    color: red;
+}
+.hazir{
+    color: blue;
+}
+.p{
+ font-size: 80px;
+ font-weight: bolder;
+ padding-top: 60px;
+ padding-left: 6px;
+
+}
+.voice{
+    font-size: 18px;
+    padding-left:7px ;
+    padding-top: 15px;
+
+}
+.button{
+    margin: 20px;
+    margin-left: 6px;
+    
+}
+.bu{
+    background-color: red;
+    padding: 15px 25px;
+    border: 2px solid red;
+    border-radius: 35px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.tt{
+    background-color: blue;
+     padding: 15px 25px;
+    border: 2px solid blue;
+    border-radius: 35px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.mic{
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    background-color: plum;
+    border: 2px solid palevioletred;
+    border-radius: 50px;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.pi{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.full{
+    height: 150px;
+    width: 100%;
+    font-size: 43px;
+    font-weight: bolder;
+    background-color:rgb(5, 3, 3);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+   padding-top: 25px;
+}
+.e{
+    color: white;
+}
+.n{
+    color: blue;
+}
+.box{
+    width: 100%;
+    height: 850px;
+    background-color:rgb(5, 3, 3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+    
+}
+.c1{
+    width: 20%;
+    height: 423px;
+    border: 2px solid rgb(155, 147, 147);
+    border-radius: 15px;
+    background-color: rgb(24, 20, 20);
+    margin-top: 5px;
+    
+  
+   
+}
+.image1 img{
+    margin: 10px;
+    margin-right:0;
+    margin-top: 18px;
+    width: 94%;
+    height: 200px;
+    border-radius: 15px;
+}
+.h4{
+    font-size: 28px;
+}
+.p1{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.h2{
+    color: blue;
+    margin-top: 10px;
+}
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.to{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    padding: 18px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: aliceblue;
+    transition: 2s;
+}
+.last{
+    width: 100%;
+    height: 800px;
+    /* display: flex; */
+   justify-content: center;
+   text-align: center;
+   background-color: rgb(5, 3, 3);
+    
+}
+.contact{
+    font-size: 50px;
+    font-weight: bold;
+   /* margin-top: 120px; */
+  
+}
+.con{
+    color: white;
+}
+.act{
+    color: blue;
+}
+.pr{
+margin-top: 50px;
+margin-right: 1200px;
+font-size: 25px;
+}
+
+
+.form #name,
+.form #phone {
+    width: 35%;
+    height: 38px;
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color:rgb(24, 20, 20) ;
+    color: white;
+    border: 2px solid rgb(117, 113, 113);
+   border-radius: 8px;
+   margin-top: 2px;
+   
+
+}
+
+.form #message {
+    width: 35%;
+    height: 100px;
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    resize: vertical;
+    background-color: rgb(24, 20, 20);
+    color: white;
+    border: 2px solid rgb(117, 113, 113);
+    border-radius: 8px;
+    margin-top: 2px;
+}
+
+.form {
+    margin-top: 50px;
+}
+.send{
+    margin-top: 70px;
+    margin-right: 70px;
+    height: 8px;
+   
+
+}
+.w{
+    padding: 16px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 40px;
+    background-color: red;
+    border: 2PX SOLID red;cursor: pointer;
+  
+}
+
+
+
+
+
+
+
